@@ -18,7 +18,8 @@
   },
   "scripts": {
     "build": "bash build.sh",
-    "test": "jest test/"
+    "test": "jest test/",
+    "prepack": "npm run build"
   },
   "repository": {
     "type": "git",
