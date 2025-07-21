@@ -2,7 +2,7 @@
 set -e
 
 rm -rf pyret-lang
-git clone --single-branch -b horizon https://github.com/brownplt/pyret-lang.git
+git clone --single-branch -b fix/poly-fun-alias https://github.com/ironm00n/pyret-lang.git
 
 pushd pyret-lang
 npm install
