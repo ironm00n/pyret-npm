@@ -2,7 +2,7 @@
 set -e
 
 rm -rf pyret-lang
-git clone --single-branch -b fix/poly-fun-alias https://github.com/ironm00n/pyret-lang.git
+git clone --single-branch -b unmerged https://github.com/ironm00n/pyret-lang.git
 
 pushd pyret-lang
 
