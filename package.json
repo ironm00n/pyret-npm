@@ -1,6 +1,6 @@
 {
-  "name": "pyret-npm",
-  "version": "0.0.65",
+  "name": "@ironm00n/pyret-npm",
+  "version": "0.0.2",
   "description": "The CLI for the Pyret programming language",
   "files": [
     "pyret.js",
@@ -19,7 +19,8 @@
   },
   "scripts": {
     "build": "bash build.sh",
-    "test": "jest test/"
+    "test": "jest test/",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
