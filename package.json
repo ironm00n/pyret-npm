@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brownplt/pyret-npm.git"
+    "url": "git+https://github.com/ironm00n/pyret-npm.git"
   },
   "bin": {
     "pyret": "pyret.js"
@@ -33,9 +33,9 @@
   "author": "The Pyret Crew",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/brownplt/pyret-npm/issues"
+    "url": "https://github.com/ironm00n/pyret-npm/issues"
   },
-  "homepage": "https://github.com/brownplt/pyret-npm#readme",
+  "homepage": "https://github.com/ironm00n/pyret-npm#readme",
   "devDependencies": {
     "jest": "^30.0.0"
   }
