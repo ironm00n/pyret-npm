@@ -1,6 +1,6 @@
 {
   "name": "@ironm00n/pyret-npm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The CLI for the Pyret programming language",
   "files": [
     "pyret.js",
