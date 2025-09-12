@@ -6,7 +6,6 @@ git clone --depth 1 --single-branch -b fork https://github.com/ironm00n/pyret-la
 
 pushd pyret-lang
 
-
 # npm publish (and npm pack) run all lifecycle scripts in "dry-run" mode.
 # If we don’t override that flag, nested npm command only *pretend* to
 # install: they print “added ... packages” but write no node_modules tree, so
@@ -15,6 +14,7 @@ pushd pyret-lang
 npm ci --dry-run=false
 
 make phaseA libA
+rm .npmignore
 touch .npmignore
 popd
 
